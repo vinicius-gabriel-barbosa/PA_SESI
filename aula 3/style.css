@@ -1,0 +1,17 @@
+p.texto_padrao {
+    color: aliceblue;
+    background-color: bisque;
+}
+
+.titulo {
+
+}
+
+.imagens {
+
+}
+
+body {
+background-color: antiquewhite;
+backdrop-filter: blur(5px);
+}
