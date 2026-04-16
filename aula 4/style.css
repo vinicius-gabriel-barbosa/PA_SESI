@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+
+body {
+    background-color: #092126;
+    margin: 0;
+    padding: 20px;
+    font-family: "Ledger", serif;
+    min-height: 100vh;
+}
+
+/* Container principal com Grid de 3 colunas */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Estilos comuns para todos os boxes de texto */
+.textop1, .textop2, .textop3, .textop4, .titulo {
+    background-color: #1B5359;
+    color: #D9BD6A;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px; /* Reduzi um pouco para caber mais texto */
+    border-radius: 10px;
+    line-height: 1.4;
+}
+
+.titulo {
+    font-size: 32px;
+    padding: 15px;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: inherit;
+}
+
+/* Imagens responsivas */
+.imagem1, .imagem2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Organização das colunas */
+.coluna-esquerda, .coluna-central, .coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
